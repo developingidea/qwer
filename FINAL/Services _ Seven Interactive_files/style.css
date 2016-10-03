@@ -1,0 +1,334 @@
+/*
+Theme Name: Seven
+Theme URI: http://www.designova.net/themes/wordpress/seven
+Description: A Premium Responsive Creative wordpress theme
+Author: Designova
+Author URI: http://www.designova.net
+License: GNU General Public License version 3.0
+License URI: http://www.gnu.org/licenses/gpl-3.0.html
+Version: 1.0
+Tags: light,theme-options, translation-ready
+
+Designed & Handcrafted by Designova
+All files, unless otherwise stated, are released under the GNU General Public License
+*/
+
+
+/*--------------------------------------------------------*/
+/* TABLE OF CONTENTS: */
+/*--------------------------------------------------------*/
+/* 01 - LAYOUT INITIALIZATION */
+/* 02 - COMMON ELEMENTS */
+/* 03 - BLOG STYLING */
+/* 04 - WP ESSENTIALS*/
+
+
+
+/*-------------------------------------------------------------------------------------------------------------------------------*/
+/* 01 - LAYOUT INITIALIZATION */
+/*-------------------------------------------------------------------------------------------------------------------------------*/
+
+@media (min-width: 1200px) {
+
+	#mastwrap{
+		padding-left: 20px;
+		padding-right: 20px;
+	}
+	
+}
+
+
+
+div.mobile-video-bg{
+	position: absolute;
+	z-index: 0;
+	top: 0;
+	left: 0;
+	height: 100vh;
+	width: 100%;
+}
+
+.uppercase{
+	text-transform: uppercase;
+}
+.lowercase{
+	text-transform: lowercase;
+}
+.seven-text-block span{
+	display: inline-block;
+}
+
+.split-section{
+	background-size: cover !important;
+	background-position: center center !important;
+}
+
+
+
+/*-------------------------------------------------------------------------------------------------------------------------------*/
+/* 02 - COMMON ELEMENTS */
+/*-------------------------------------------------------------------------------------------------------------------------------*/
+a{
+	color: #777;
+}
+a:hover{
+	color: #343434;
+}
+a.featured-link{
+	display: block;
+	float: left;
+	font-size: 72px;
+	line-height: 124px;
+	text-transform: uppercase;
+	letter-spacing: 4px;
+	margin-right: 30px;
+	border-bottom: solid 4px;
+	-webkit-transition: all .4s ease-in-out;
+	   -moz-transition: all .4s ease-in-out;
+		-ms-transition: all .4s ease-in-out;
+		 -o-transition: all .4s ease-in-out;
+			transition: all .4s ease-in-out;
+}
+a.featured-link:hover{
+	-webkit-transition: all .4s ease-in-out;
+	   -moz-transition: all .4s ease-in-out;
+		-ms-transition: all .4s ease-in-out;
+		 -o-transition: all .4s ease-in-out;
+			transition: all .4s ease-in-out;
+}
+
+.contact_web_url{
+	display: none;
+}
+
+
+.seven-sticky-header .standard-header{
+	padding: 20px 0;
+	position: absolute;
+	width: 100%;
+	z-index: 100;
+}
+.seven-sticky-header .standard-header .slogan h5{
+	margin-top: 25px;
+}
+.aux-icon-btn{
+	text-align: center;
+	-webkit-transition: all .8s ease-in-out;
+	   -moz-transition: all .8s ease-in-out;
+		-ms-transition: all .8s ease-in-out;
+		 -o-transition: all .8s ease-in-out;
+			transition: all .8s ease-in-out;
+}
+.aux-icon-btn span{
+	display: block;
+	width: 70px;
+	height: 70px;
+	margin: 0 auto;
+	clear: both;
+	margin-bottom: 12px;
+}
+/*.seven-text-block br{
+	display: block;
+}*/
+
+
+/*-------------------------------------------------------------------------------------------------------------------------------*/
+/* 01 - LAYOUT INITIALIZATION */
+/*-------------------------------------------------------------------------------------------------------------------------------*/
+
+.news-list-wrap .news-list-item:nth-child(odd){
+	background-color: #f2f2f2;
+}
+
+.news-list-wrap .news-list-item:nth-child(even){
+	background-color: #ffffff;
+}
+
+.news-list-item .icon-wrap i:before{
+	font-size: 26px;
+	color: #777;
+}
+
+.news-list-item:hover .icon-wrap i:before{
+	color: #ffffff;
+}
+.post-attr a{
+	color: #121212;
+}
+
+.category-list li{
+	list-style: none;
+}
+.category-list ul{
+	margin-left: 0px;
+	padding-left: 0px;
+}
+.category-list .widget-heading+ul ul{
+	margin-left: 25px;
+}
+.category-list li a{
+	color: #777;
+}
+.widget-heading {
+	font-size: 22px;
+	font-weight: 200;
+	letter-spacing: 2px;
+}
+.comment-form textarea{
+	margin-bottom: 30px;
+}
+
+.pagenavi-holder{display: inline-block; width: auto;}
+.older.pagenavi-holder{float: left;}
+.newer.pagenavi-holder{float: right;}
+
+.news-image-wrap iframe{
+	width: 100% !important;
+	height: 450px !important;
+}
+
+.comments ul{list-style: none; padding-left: 0px;}
+.comments ul li .cmntparent{padding: 25px; border: 1px solid #EEE;}
+
+.commentlists li article{
+    
+    border-radius: 0px;
+    border: none;
+}
+.comment ul.children{margin-left: 50px;}
+.commentlists .avatarbox{
+    margin-bottom: 15px;
+}
+.cmntbox p{
+    border-top: #EEE solid 1px;
+    padding-top: 15px;
+    margin-top: 15px;
+}
+.comments{
+    margin-bottom: 100px;
+}
+.comments-section .blog-caps{
+	font-weight: 200;
+}
+.cmntbox a:not(.comment-reply-link){color: #555;}
+.cmntbox p{margin-bottom: 15px;}
+.logged-in-as{margin-bottom: 10px;}
+.blog-content-wrap{
+	border-bottom: 1px solid #f2f2f2;
+}
+.archive-pagination-links .prev-entries{
+	display: inline-block;
+	float: left;
+	margin-left: 15px;
+}
+.archive-pagination-links .next-entries{
+	display: inline-block;
+	float: right;
+	margin-right: 15px;
+}
+.comment-reply-title a:not(.btn){
+	color: #777;
+}
+.comment-reply-title a:hover{
+	color: #FFF;
+}
+.comment-reply-title small{
+	display: inline-block;
+	float: right;
+}
+.post-type-quote {
+    background: #F2F2F2;
+    color: #777;
+    font-family: Georgia, serif;
+    font-size: 20px;
+    line-height: 27px;
+    padding: 20px;
+}
+.featured-image a{text-decoration: none !important;}
+.post-type-link {
+    color: #333;
+    text-decoration: none !important;
+    font-size: 24px;
+    font-weight: normal;
+    line-height: 31px;
+    padding: 20px;
+}
+
+
+
+
+/*-------------------------------------------------------------------------------------------------------------------------------*/
+/* 04 - WP ESSENTIALS */
+/*-------------------------------------------------------------------------------------------------------------------------------*/
+
+.alignright{
+    text-align: right;
+    float: right;
+    margin-left: 20px;
+}
+
+.alignleft{
+    text-align: left;
+    float: left;
+    margin-right: 20px; 
+}
+
+.aligncenter{
+    text-align: center;
+    float: none;
+    margin: 0 auto;
+}
+
+.wp-caption{
+    background: #222;
+
+    border: 1px solid #f0f0f0;
+    max-width: 96%; /* Image does not overflow the content area */
+    padding: 5px 3px 10px;
+    text-align: center;
+    clear: both;
+
+}
+.wp-caption-text{
+    color: #FFF !important;
+    background: #222;
+    font-size: 12px;
+    font-weight: 300;
+    letter-spacing: 2px;
+    line-height: 21px;
+    text-transform: uppercase;
+    margin: 0;
+    padding: 10px 0 5px;
+}
+.sticky{color:#000;}
+.gallery-caption{
+    color: #222;
+}
+.bypostauthor{color: #000;}
+
+table, th, td {
+   border: 1px solid #CCC;
+   padding: 10px;
+} 
+
+.mastwrap img{
+	max-width: 100%;
+	height: auto;
+}
+.comment ul:not(.children){
+	list-style: disc;
+}
+.comment ul{
+	
+	padding-left: 20px;
+}
+.comment ol{
+	padding-left: 24px;
+}
+.comment ul ul, .comment ol ol{
+	margin-left: 20px;
+	
+}
+.commentlists{
+	list-style: none;
+}

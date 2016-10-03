@@ -1,0 +1,468 @@
+/*
+Theme Name: Dexter
+Theme URI: http://www.unbranded.co/wordpress/dexter
+Description: A Premium Responsive Creative wordpress theme
+Author: Unbranded
+Author URI: http://www.unbranded.co
+License: GNU General Public License version 3.0
+License URI: http://www.gnu.org/licenses/gpl-3.0.html
+Version: 1.0
+Tags: light,theme-options, translation-ready
+
+Designed & Handcrafted by Unbranded
+All files, unless otherwise stated, are released under the GNU General Public License
+*/
+
+
+/*--------------------------------------------------------*/
+/* TABLE OF CONTENTS: */
+/*--------------------------------------------------------*/
+/* 01 - COMMON ELEMENTS */
+/* 02 - STANDARD NAVIGATION */
+/* 03 - BLOG STYLING */
+/* 04 - WP ESSENTIALS*/
+
+
+
+/*-------------------------------------------------------------------------------------------------------------------------------*/
+/* 01 - COMMON ELEMENTS */
+/*-------------------------------------------------------------------------------------------------------------------------------*/
+.float-clear{
+    clear: both;
+}
+.uppercase{
+    text-transform: uppercase;
+}
+.parallax{
+  background-size: cover !important;
+  background-repeat: no-repeat !important;
+  background-attachment: fixed !important;
+}
+.cover-bg{
+  background-position: center;
+  background-size: cover !important;
+  background-repeat: no-repeat !important;
+
+}
+.dexter-text-block{
+    display: inline-block;
+}
+.dexter-text-block span{
+    display: inline-block;
+}
+
+.dexter-link-wrap{
+    padding: 0 5px;
+}
+.dexter-link-wrap a{
+    -webkit-transition: all 0.3s;
+     -moz-transition: all 0.3s;
+      -o-transition: all 0.3s;
+       -ms-transition: all 0.3s;
+        transition: all 0.3s;
+}
+
+
+.dexter-carousel.owl-theme .owl-controls .owl-nav div{
+	width: 60px;
+
+	margin: 0px;
+	border-radius: 50%;
+	padding: 0px;
+	position: absolute;
+	top: 50%;
+	-moz-transform: translateY(-50%);
+    -o-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    -webkit-transform: translateY(-50%);
+    transform: translateY(-50%);
+    -webkit-transition: all .6s ease;
+	   -moz-transition: all .6s ease;
+		-ms-transition: all .6s ease;
+		 -o-transition: all .6s ease;
+			transition: all .6s ease;
+}
+.dexter-carousel.owl-theme .owl-controls .owl-nav div i{
+	font-size: 25px;
+	line-height: 32px;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	-moz-transform: translateY(-50%) translateX(-50%);
+    -o-transform: translateY(-50%) translateX(-50%);
+    -ms-transform: translateY(-50%) translateX(-50%);
+    -webkit-transform: translateY(-50%) translateX(-50%);
+    transform: translateY(-50%) translateX(-50%);
+    color: #121212;
+}
+.dexter-carousel.owl-theme .owl-controls .owl-nav .owl-prev{
+	left: -100px;
+}
+.dexter-carousel.owl-theme .owl-controls .owl-nav .owl-next{
+	right: -100px;
+}
+
+.dexter-team{
+  position: relative;
+}
+.featherlight-next:hover, .featherlight-previous:hover{
+  background: transparent !important;
+}
+
+.featherlight-next span, .featherlight-previous span{
+  display: block !important;
+  font-size: 28px !important;
+  text-shadow: none !important;
+}
+.featherlight-next{
+  right: -200px !important;
+}
+.featherlight-previous{
+  left: -200px !important;
+}
+.featherlight .featherlight-close-icon{
+  padding-right: 0px;
+}
+
+.icon-block{
+  padding-top: 2px;
+}
+
+.dexter-page-content-section p, .dexter-single-post-content p{
+  margin-bottom: 20px;
+}
+
+.dexter-page-content-section img, .dexter-single-post-content img, .dexter-single-post-content{
+  max-width: 100% !important;
+  height: auto;
+}
+
+.dexter-single-post-content  p
+{
+  max-width: 100%;
+
+}
+
+#error-page.inner-page{
+  margin-top: 0px;
+}
+#error-page + #footer{
+  padding-top: 60px;
+}
+ body.search-no-results .inner-page{
+  margin-top: 0px;
+ }
+
+
+/*-------------------------------------------------------------------------------------------------------------------------------*/
+/* 03 - BLOG STYLING */
+/*-------------------------------------------------------------------------------------------------------------------------------*/
+.blog-list-wrap{
+  margin-top: 65px;
+}
+.blog-list-item{
+  border-bottom: #CCC solid 1px;
+  padding-bottom: 50px;
+  margin-bottom: 50px;
+}
+.blog-list-item h6{
+  font-weight: 700;
+  padding-bottom: 7px;
+  padding-top: 10px;
+  margin-bottom: 30px;
+  display: inline-block;
+  border-bottom: #CCC solid 1px;
+}
+.blog_pagination{
+  margin-bottom: 5px;
+}
+.dexter-single-post .inner-page-header h4{
+  font-weight: 700;
+}
+.post-header-details, .post-header-details p{
+  font-weight: 700;
+  color: #FFF;
+}
+.post-header-details a{
+  color: #FFF;
+  -webkit-transition: all .4s ease-in-out;
+     -moz-transition: all .4s ease-in-out;
+      -ms-transition: all .4s ease-in-out;
+       -o-transition: all .4s ease-in-out;
+          transition: all .4s ease-in-out;
+}
+.page-nav > a{
+  float: left;
+}
+.page-nav a + a{
+  float: right;
+}
+.news-list-wrap .news-post p{
+    margin-top: 15px;
+}
+
+.news-post{
+    position: relative;
+}
+.news-post .icon-wrap{
+  background: #f8f8f8;
+  font-size: 24px;
+  padding: 10px 15px;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+.blog-content-container img{
+    max-width: 100%;
+    height: auto;
+}
+.post-attr{
+    border-top: #CCC solid 1px;
+    padding-top: 20px;
+    margin-top: 20px;
+    letter-spacing: 4px;
+}
+
+.post-attr .post-cat a{
+    color: #999;
+    -webkit-transition: all .4s ease-in-out;
+       -moz-transition: all .4s ease-in-out;
+        -ms-transition: all .4s ease-in-out;
+         -o-transition: all .4s ease-in-out;
+            transition: all .4s ease-in-out;
+}
+
+.blog_pagination span.prev-entries{
+    display: inline-block;
+    float: left;
+}
+.blog_pagination span.next-entries{
+    display: inline-block;
+    float: right;
+}
+.inner-page-navigation a[rel="prev"]{
+    display: inline-block;
+    float: left;
+}
+
+.inner-page-navigation a[rel="next"]{
+    display: inline-block;
+    float: right;
+}
+
+.post-tags, .post-cat{
+    margin-top: 10px;
+}
+.post-tags a{
+    padding: 3px 10px 5px;
+    background: #EEE;
+    font-size: 10px;
+    letter-spacing: 1px;
+    font-weight: 600;
+    display: inline-block;
+    border-radius: 0px;
+    color: #666;
+    -webkit-transition: all .4s ease-in-out;
+       -moz-transition: all .4s ease-in-out;
+        -ms-transition: all .4s ease-in-out;
+         -o-transition: all .4s ease-in-out;
+            transition: all .4s ease-in-out;
+}
+.blog-post-tags.post-tags h5{
+	text-transform: uppercase;
+	font-weight: 600;
+	margin-bottom: 10px;
+
+}
+.blog-post-tags.post-tags{
+  border-top: #CCC solid 1px;
+  border-bottom: #CCC solid 1px;
+  margin-top: 50px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  margin-bottom: 50px;
+}
+.comments-wrap{
+  margin-top: 100px;
+  padding-top: 40px;
+}
+.form-submit{
+    padding-top: 30px;
+}
+.sidebar-list > li{
+  border-bottom: none !important;
+}
+.sidebar > ul{
+    margin-left: 0;
+    padding-left: 0;
+}
+.sidebar ul{
+    list-style: none;
+}
+h4.widget-heading{
+    font-size: 16px;
+    font-weight: 400;
+    letter-spacing: 2px;
+    line-height: 24px;
+    margin-bottom: 20;
+    text-transform: uppercase;
+    border-bottom: 4px solid;
+    display: inline-block;
+    padding-bottom: 10px;
+    margin-bottom: 25px;
+
+}
+.categories > ul{
+    margin-left: 0;
+    padding-left: 0;
+}
+.categories ul ul{
+    padding-left: 20px;
+    padding-top: 10px;
+}
+
+.blog-post-sidebar .sidebar-list ul{
+  margin-bottom: 50px;
+}
+.widget.blog-type-list > ul{
+  list-style: none;
+  border-bottom: none;
+}
+.blog-category ul{
+    padding-left: 0px;
+}
+.comment-info span a{
+  -webkit-transition: all .4s ease-in-out;
+     -moz-transition: all .4s ease-in-out;
+      -ms-transition: all .4s ease-in-out;
+       -o-transition: all .4s ease-in-out;
+          transition: all .4s ease-in-out;
+}
+
+
+.post-type-quote {
+    padding: 20px;
+}
+.post-type-quote p{
+    color: #777;
+    font-size: 20px;
+    line-height: 27px;
+    font-style: italic;
+    text-align: center;
+    margin-top: 0px;
+    font-weight: 700;
+}
+
+.post-type-link {
+    color: #FFF;
+    text-decoration: none !important;
+    font-size: 24px;
+    font-weight: normal;
+    line-height: 31px;
+    padding: 20px;
+    text-align: center;
+}
+.dexter-page-content img{
+    max-width: 100%;
+    height: auto;
+}
+
+
+/*-------------------------------------------------------------------------------------------------------------------------------*/
+/* 04 - WP ESSENTIALS */
+/*-------------------------------------------------------------------------------------------------------------------------------*/
+
+.alignright{
+    text-align: right;
+    float: right;
+    margin-left: 20px;
+}
+
+.alignleft{
+    text-align: left;
+    float: left;
+    margin-right: 20px;
+}
+
+.aligncenter{
+    text-align: center;
+    float: none;
+    margin: 0 auto;
+}
+
+.wp-caption{
+    background: #222;
+
+    border: 1px solid #f0f0f0;
+    max-width: 96%; /* Image does not overflow the content area */
+    padding: 5px 3px 10px;
+    text-align: center;
+    clear: both;
+
+}
+.wp-caption-text{
+    color: #FFF !important;
+    background: #222;
+    font-size: 12px;
+    font-weight: 300;
+    letter-spacing: 2px;
+    line-height: 21px;
+    text-transform: uppercase;
+    margin: 0;
+    padding: 15px 0 5px;
+    margin-bottom: 0px !important;
+    margin-top: 0px !important;
+}
+.sticky{color:#000;}
+.gallery-caption{
+    color: #222;
+}
+.bypostauthor{color: #000;}
+
+table, th, td {
+   border: 1px solid #CCC;
+   padding: 10px;
+}
+
+.mastwrap img{
+	max-width: 100%;
+	height: auto;
+}
+.comment ul:not(.children){
+	list-style: disc;
+}
+.comment ul{
+
+	padding-left: 20px;
+}
+.comment ol{
+	padding-left: 24px;
+}
+.comment ul ul, .comment ol ol{
+	margin-left: 20px;
+
+}
+.commentlists{
+	list-style: none;
+}
+.cmntbox ul, .cmntbox ol{
+  margin-top: 20px;
+  margin-bottom: 30px;
+}
+.cmntbox ul li ul, .cmntbox ol li ol{
+  margin-top: 10px;
+  margin-bottom: 0px;
+}
+.cmntbox ul li{
+  list-style: disc;
+}
+.cmntbox ul li ul li{
+  list-style: circle;
+}
+.cmntbox ol li{
+  list-style: decimal;
+}
+li.comment.depth-5 .comment-reply{
+  display: none;
+}

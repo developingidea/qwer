@@ -1,0 +1,104 @@
+/*SLIDINGMENU.CSS*/
+/*-------------------------------------------------------------------------------------------------------------------------------*/
+/*This CSS file contains style rules for Sliding Menu*/
+/*-------------------------------------------------------------------------------------------------------------------------------*/
+/*Template Name: DEXTER.*/
+/* Author: Unbranded.*/
+/* Website: http://www.unbranded.co */
+/* Copyright: (C) 2015 */
+/*-------------------------------------------------------------------------------------------------------------------------------*/
+
+.mobile-nav {
+	position: fixed;
+	left: -200px;
+	width: 260px;
+	height: 100%;
+	top: 0;
+	z-index: 1001;
+	text-align: left;
+	-webkit-transition: all .6s ease;
+	   -moz-transition: all .6s ease;
+		-ms-transition: all .6s ease;
+		 -o-transition: all .6s ease;
+			transition: all .6s ease;
+}
+
+.mobile-nav.mobile-nav-open {
+	left: 0px;
+}
+
+.mobile-nav-wrap{
+	position: absolute;
+	top: 0;
+	right: 60px;
+	width: 200px;
+	height: 100%;
+}
+.mobile-nav-wrap ul{
+	padding-left: 0px;
+}
+.mobile-nav-wrap ul li{
+	list-style: none;
+	position: relative;
+}
+.mobile-nav-wrap ul li span{
+	padding: 14px;
+	position: absolute;
+	right: 0px;
+	top: 0px;
+}
+.mobile-nav-wrap ul li i{
+	float: right;
+}
+.mobile-sub-menu{
+	display: none;
+}
+.mobile-sub-menu .menu-item-has-children a{
+	display: block;
+}
+.mobile-nav a{
+	margin:0px;
+	color: #777;
+	display: block;
+	font-size: 11px;
+	letter-spacing: 2px;
+	font-weight: 200;
+	line-height: 23px;
+	text-transform: uppercase;
+	font-weight: 700;
+	padding: 10px;
+	-webkit-transition: all .4s ease-in-out;
+	   -moz-transition: all .4s ease-in-out;
+		-ms-transition: all .4s ease-in-out;
+		 -o-transition: all .4s ease-in-out;
+			transition: all .4s ease-in-out;
+}
+
+.menu a:hover {
+	-webkit-transition: all .4s ease-in-out;
+	   -moz-transition: all .4s ease-in-out;
+		-ms-transition: all .4s ease-in-out;
+		 -o-transition: all .4s ease-in-out;
+			transition: all .4s ease-in-out;
+}
+
+#mobile-nav-trigger {
+	position: absolute;
+	top: 20px;
+	right: 0;
+	z-index: 999;
+	cursor: pointer;
+	width: 40px;
+	height: 40px;
+	cursor: pointer;
+	background: url('../images/menu.png') center center;
+	-webkit-transition: all .1s ease-in-out;
+	   -moz-transition: all .1s ease-in-out;
+		-ms-transition: all .1s ease-in-out;
+		 -o-transition: all .1s ease-in-out;
+			transition: all .1s ease-in-out;
+}
+.menu-item-has-children span{
+	cursor: pointer;
+
+}
